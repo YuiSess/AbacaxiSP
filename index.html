@@ -3,7 +3,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AbacaxiSP</title>
     <link rel="stylesheet" href="css/styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <script src="https://js.hcaptcha.com/1/api.js" async defer></script>
+</head>    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="icon" href="images/favicon.png">
     <script src="js/8d38ce047555b74bc9ae8c98ff73bb3c.min.js" crossorigin="anonymous"></script>
     <script async="" defer="" src="js/pt-br.min.js" type="module">
@@ -47,8 +49,7 @@
 
                     <!-- Altcha CAPTCHA Widget -->
                     <div class="input-group">
-                        <altcha-widget challengeurl="/api/altcha/challenge" auto="onfocus" hidefooter="true" hidelogo="true" language="pt-BR" expire="120000">
-                        </altcha-widget>
+                        <div class="h-captcha" data-sitekey="94bceeba-7d76-48b4-aad6-da469c3cd51a"></div>
                     </div>
 
                     <div class="button-group">
